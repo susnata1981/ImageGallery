@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<ImageView-->
+        <!--android:id="@+id/image1"-->
+        <!--android:tag="1"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:padding="2dp" />-->
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/rightContainer"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_toRightOf="@id/image1">-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/image2"-->
+            <!--android:tag="2"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:paddingRight="2dp"-->
+            <!--android:paddingTop="2dp"-->
+            <!--android:paddingBottom="2dp"/>-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/image3"-->
+            <!--android:tag="3"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:paddingRight="2dp"-->
+            <!--android:paddingBottom="2dp" />-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/image4"-->
+            <!--android:tag="4"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:paddingRight="2dp"-->
+            <!--android:paddingBottom="2dp"/>-->
+    <!--</LinearLayout>-->
+
+    <ImageView
+        android:id="@+id/image1"
+        android:tag="1"
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+
+    <LinearLayout
+        android:id="@+id/rightContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toRightOf="@id/image1">
+
+        <ImageView
+            android:id="@+id/image2"
+            android:tag="2"
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
+        <ImageView
+            android:id="@+id/image3"
+            android:tag="3"
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
+
+        <ImageView
+            android:id="@+id/image4"
+            android:tag="4"
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
